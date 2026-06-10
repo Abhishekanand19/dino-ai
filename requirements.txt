@@ -1,0 +1,12 @@
+mss==9.0.1
+pyautogui==0.9.54
+opencv-python==4.9.0.80
+numpy==1.26.4
+torch==2.3.0
+torchvision==0.18.0
+Pillow==10.3.0
+keyboard==0.13.5
+pandas==2.2.2
+matplotlib==3.9.0
+scikit-learn==1.5.0
+tqdm==4.66.4
