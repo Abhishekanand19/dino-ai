@@ -36,15 +36,15 @@ from utils.model import DinoNet, get_device
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 
 # Must match what you used in collect.py
-CAPTURE_REGION = {"top": 300, "left": 0, "width": 800, "height": 300}
+CAPTURE_REGION = {"top": 220, "left": 120, "width": 1600, "height": 450}
 
 MODEL_PATH = "models/dino_model.pth"
 
 # Inference FPS — how fast the AI reacts
-FPS = 15
+FPS = 30
 
 # Minimum confidence to act (0.0–1.0). Raise if AI acts too jittery.
-CONFIDENCE_THRESHOLD = 0.6
+CONFIDENCE_THRESHOLD = 0.35
 
 # How long to hold a key press (seconds)
 JUMP_DURATION = 0.1
