@@ -29,7 +29,7 @@ from datetime import datetime
 # Screen region to capture — adjust these to match your Chrome window
 # Format: {"top": Y, "left": X, "width": W, "height": H}
 # TIP: Run calibrate.py first to find the right values
-CAPTURE_REGION = {"top": 300, "left": 0, "width": 800, "height": 300}
+CAPTURE_REGION = {"top": 220, "left": 120, "width": 1600, "height": 450}
 
 # How many frames per second to capture
 FPS = 15

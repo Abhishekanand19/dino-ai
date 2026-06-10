@@ -15,10 +15,10 @@ import cv2
 import numpy as np
 
 # ── Tweak these until the red box perfectly frames the dino game ──
-TOP    = 300
-LEFT   = 0
-WIDTH  = 800
-HEIGHT = 300
+TOP    = 220
+LEFT   = 120
+WIDTH  = 1500
+HEIGHT = 450
 # ─────────────────────────────────────────────────────────────────
 
 def main():
